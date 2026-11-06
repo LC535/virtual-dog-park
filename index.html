@@ -106,8 +106,14 @@
       </form>
 
       <div class="pet-card" id="petCard" hidden>
-        <div class="pet-visual">
+        <div class="pet-visual" id="petVisual">
           <img class="pet-image" id="petImage" src="assets/shiba-inu.svg" alt="Illustration of your adopted dog">
+          <div class="growth">
+            <div class="growth-track" aria-hidden="true">
+              <span class="growth-fill" id="growthFill"></span>
+            </div>
+            <p class="growth-caption">Growth: <strong id="growthLabel">Puppy</strong></p>
+          </div>
         </div>
 
         <div class="pet-info">
@@ -133,11 +139,14 @@
           <div class="pet-actions">
             <button type="button" class="btn btn-primary" id="feedBtn">Feed</button>
             <button type="button" class="btn btn-primary" id="playBtn">Play</button>
+            <button type="button" class="btn btn-secondary" id="nextDayBtn">Next Day</button>
+            <button type="button" class="btn btn-quiet" id="startOverBtn">Start Over</button>
           </div>
         </div>
       </div>
 
       <p class="status" id="status" role="status"></p>
+      <p class="storage-note">Your dog is saved in this browser only (localStorage), not in a GitHub or online account.</p>
     </section>
   </main>
 
