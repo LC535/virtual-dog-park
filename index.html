@@ -64,6 +64,81 @@
         </article>
       </div>
     </section>
+
+    <section class="panel" id="my-dog">
+      <div class="panel-head">
+        <h2>My Virtual Dog</h2>
+        <p>Choose a breed, give your dog a name, then keep it happy. Every new dog starts on Day&nbsp;1 as a puppy with happiness 50.</p>
+      </div>
+
+      <form class="adopt-form" id="adoptForm" novalidate>
+        <fieldset class="breed-picker">
+          <legend>Choose a breed</legend>
+
+          <label class="choice">
+            <input type="radio" name="breed" value="Shiba Inu" checked>
+            <img src="assets/shiba-inu.svg" alt="">
+            <span>Shiba Inu</span>
+          </label>
+
+          <label class="choice">
+            <input type="radio" name="breed" value="Corgi">
+            <img src="assets/corgi.svg" alt="">
+            <span>Corgi</span>
+          </label>
+
+          <label class="choice">
+            <input type="radio" name="breed" value="Border Collie">
+            <img src="assets/border-collie.svg" alt="">
+            <span>Border Collie</span>
+          </label>
+        </fieldset>
+
+        <div class="field">
+          <label for="dogName">Dog name</label>
+          <input id="dogName" name="dogName" type="text" maxlength="20" autocomplete="off"
+                 placeholder="e.g. Momo" aria-describedby="nameHint nameError">
+          <p class="hint" id="nameHint">Up to 20 characters. Spaces inside the name are allowed.</p>
+          <p class="error" id="nameError" role="alert"></p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Adopt</button>
+      </form>
+
+      <div class="pet-card" id="petCard" hidden>
+        <div class="pet-visual">
+          <img class="pet-image" id="petImage" src="assets/shiba-inu.svg" alt="Illustration of your adopted dog">
+        </div>
+
+        <div class="pet-info">
+          <p class="pet-eyebrow">Your dog</p>
+          <h3 id="petName">&nbsp;</h3>
+          <p class="pet-breed" id="petBreed">&nbsp;</p>
+
+          <dl class="pet-stats">
+            <div>
+              <dt>Day</dt>
+              <dd id="statDay">1</dd>
+            </div>
+            <div>
+              <dt>Stage</dt>
+              <dd id="statStage">Puppy</dd>
+            </div>
+            <div>
+              <dt>Happiness</dt>
+              <dd id="statHappiness">50</dd>
+            </div>
+          </dl>
+
+          <div class="pet-actions">
+            <button type="button" class="btn btn-primary" id="feedBtn">Feed</button>
+            <button type="button" class="btn btn-primary" id="playBtn">Play</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="status" id="status" role="status"></p>
+    </section>
   </main>
 
   <footer class="site-footer">

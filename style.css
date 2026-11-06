@@ -201,3 +201,287 @@ img {
     padding: 1.1rem;
   }
 }
+
+/* ============================================================
+   Round 2: adoption, Feed and Play
+   ============================================================ */
+
+#my-dog {
+  margin-top: 1.4rem;
+}
+
+/* --- breed picker --- */
+
+.breed-picker {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.breed-picker legend {
+  padding: 0;
+  margin-bottom: 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9a8b7c;
+}
+
+.choice {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.7rem 0.5rem 0.85rem;
+  background: #fffdfa;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-align: center;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.choice:hover {
+  border-color: #dcc4ac;
+}
+
+.choice input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.choice img {
+  width: 100%;
+  max-width: 84px;
+}
+
+.choice:has(input:checked) {
+  border-color: var(--accent);
+  background: #fff6ee;
+}
+
+.choice:focus-within {
+  outline: 3px solid rgba(224, 118, 60, 0.35);
+  outline-offset: 2px;
+}
+
+/* --- name field --- */
+
+.field {
+  margin-top: 1.4rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9a8b7c;
+}
+
+.field input {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.7rem 0.9rem;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: #fffdfa;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: #fff;
+}
+
+.field input[aria-invalid="true"] {
+  border-color: #c4453a;
+}
+
+.hint {
+  margin: 0.45rem 0 0;
+  font-size: 0.78rem;
+  color: #9a8b7c;
+}
+
+.error {
+  min-height: 1.1rem;
+  margin: 0.3rem 0 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #c4453a;
+}
+
+/* --- buttons --- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.6rem 1.3rem;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.btn-primary {
+  margin-top: 1.3rem;
+  color: #fff;
+  background: var(--accent);
+  box-shadow: 0 10px 18px -12px rgba(189, 90, 39, 0.9);
+}
+
+.btn-primary:hover {
+  background: var(--accent-dark);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.btn:focus-visible {
+  outline: 3px solid rgba(224, 118, 60, 0.45);
+  outline-offset: 2px;
+}
+
+/* --- pet card --- */
+
+.pet-card {
+  display: grid;
+  grid-template-columns: minmax(0, 200px) minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1.3rem;
+  background: #fff8f0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.pet-visual {
+  display: flex;
+  justify-content: center;
+}
+
+/* the hidden attribute must win over display: grid above */
+.pet-card[hidden] {
+  display: none;
+}
+
+.pet-image {
+  width: 100%;
+  max-width: 180px;
+}
+
+.pet-eyebrow {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+}
+
+.pet-info h3 {
+  margin: 0.15rem 0 0;
+  font-size: clamp(1.4rem, 5vw, 1.9rem);
+  letter-spacing: -0.02em;
+  word-break: break-word;
+}
+
+.pet-breed {
+  margin: 0.1rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.pet-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+}
+
+.pet-stats dt {
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #9a8b7c;
+}
+
+.pet-stats dd {
+  margin: 0.1rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.pet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.pet-actions .btn-primary {
+  margin-top: 1.1rem;
+}
+
+/* --- status line --- */
+
+.status {
+  min-height: 1.2rem;
+  margin: 1rem 0 0;
+  font-size: 0.86rem;
+  color: var(--accent-dark);
+}
+
+@media (max-width: 620px) {
+  .breed-picker {
+    grid-template-columns: 1fr;
+  }
+
+  .choice {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .choice img {
+    width: 54px;
+    flex: 0 0 auto;
+  }
+
+  .pet-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .pet-stats {
+    justify-items: center;
+  }
+
+  .pet-actions {
+    justify-content: center;
+  }
+}
