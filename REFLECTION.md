@@ -1,3 +1,5 @@
 # Reflection
 
-Writing the prompts was the easy part. The hard part was noticing what the assistant got wrong. In round one the page looked finished, but my Shiba and Corgi came out as two nearly identical orange dogs, so I redrew the ears and body shapes myself. In round three the growth bar moved while the saved dog did not, because one storage key was written in one place and read in another. Testing the dull cases — an empty name, a name containing `<b>`, thirty clicks on Feed — taught me more than reading the code. I trust the browser now, not the assistant's summary.
+I expected this lab to be quick. The AI gave me a whole page in one prompt and it looked fine, so I almost committed it. Then I lined the three dogs up: the Shiba and the Corgi were basically the same orange dog with different ears, and I had to redraw both myself.
+
+The storage gave me more trouble. I wrote the key in one place and read a different one somewhere else, so the day counter moved but the saved dog never changed. I found it by refreshing over and over. Typing `<b>Buddy</b>` into the name box also showed me why textContent matters.
