@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="collie-title">
+  <title id="collie-title">Illustration of a Border Collie</title>
+  <circle cx="120" cy="120" r="108" fill="#E9EFF7"/>
+
+  <!-- bushy tail sweeping to the side -->
+  <path d="M166 196c28 2 42-14 36-32" fill="none" stroke="#333B4A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M198 176c3 4 3 8 2 12" fill="none" stroke="#F7F8FA" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="120" cy="178" rx="55" ry="45" fill="#333B4A"/>
+
+  <!-- semi-erect ears -->
+  <path d="M88 82 Q70 44 78 36 Q90 32 108 64 Z" fill="#2A313D"/>
+  <path d="M152 82 Q170 44 162 36 Q150 32 132 64 Z" fill="#2A313D"/>
+
+  <!-- head -->
+  <ellipse cx="120" cy="106" rx="47" ry="43" fill="#333B4A"/>
+
+  <!-- white blaze from forehead to muzzle -->
+  <path d="M120 62c-8 0-13 7-13 15 0 12 4 26 13 40 9-14 13-28 13-40 0-8-5-15-13-15Z" fill="#F7F8FA"/>
+
+  <!-- white chest and ruff -->
+  <path d="M120 150c-17 0-29 14-29 32 0 16 12 26 29 26s29-10 29-26c0-18-12-32-29-32Z" fill="#F7F8FA"/>
+
+  <!-- muzzle -->
+  <ellipse cx="120" cy="132" rx="27" ry="19" fill="#F7F8FA"/>
+
+  <!-- eyes -->
+  <ellipse cx="100" cy="99" rx="5.5" ry="6.5" fill="#1F2530"/>
+  <ellipse cx="140" cy="99" rx="5.5" ry="6.5" fill="#1F2530"/>
+  <circle cx="102" cy="96.5" r="1.8" fill="#FFF"/>
+  <circle cx="142" cy="96.5" r="1.8" fill="#FFF"/>
+
+  <!-- nose and mouth -->
+  <path d="M120 122c-5 0-8 3-8 6 0 3 4 6 8 6s8-3 8-6c0-3-3-6-8-6Z" fill="#1F2530"/>
+  <path d="M120 134v5" stroke="#1F2530" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 139q-8 7-15 1" stroke="#1F2530" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 139q8 7 15 1" stroke="#1F2530" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- white front paws -->
+  <ellipse cx="97" cy="212" rx="16" ry="10" fill="#F7F8FA"/>
+  <ellipse cx="143" cy="212" rx="16" ry="10" fill="#F7F8FA"/>
+</svg>

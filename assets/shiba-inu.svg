@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="shiba-title">
+  <title id="shiba-title">Illustration of a Shiba Inu</title>
+  <circle cx="120" cy="120" r="108" fill="#FFF3E3"/>
+
+  <!-- curled tail -->
+  <path d="M168 176c30 4 44-16 38-34-5-15-26-18-34-6-6 9 2 19 12 16" fill="none" stroke="#D98F47" stroke-width="17" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="120" cy="178" rx="55" ry="45" fill="#E9A45F"/>
+
+  <!-- ears -->
+  <path d="M86 86 L72 32 Q70 26 76 28 L122 62 Z" fill="#E9A45F" stroke="#E9A45F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M154 86 L168 32 Q170 26 164 28 L118 62 Z" fill="#E9A45F" stroke="#E9A45F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M86 78 L79 44 L108 64 Z" fill="#F6C79E"/>
+  <path d="M154 78 L161 44 L132 64 Z" fill="#F6C79E"/>
+
+  <!-- head -->
+  <ellipse cx="120" cy="108" rx="47" ry="43" fill="#E9A45F"/>
+
+  <!-- white chest -->
+  <path d="M120 158c-14 0-24 12-24 28 0 14 10 22 24 22s24-8 24-22c0-16-10-28-24-28Z" fill="#FDF0DF"/>
+
+  <!-- muzzle -->
+  <ellipse cx="120" cy="132" rx="27" ry="19" fill="#FDF0DF"/>
+
+  <!-- eyes -->
+  <ellipse cx="101" cy="101" rx="5.5" ry="6.5" fill="#43312A"/>
+  <ellipse cx="139" cy="101" rx="5.5" ry="6.5" fill="#43312A"/>
+  <circle cx="103" cy="98.5" r="1.8" fill="#FFF"/>
+  <circle cx="141" cy="98.5" r="1.8" fill="#FFF"/>
+
+  <!-- nose and mouth -->
+  <path d="M120 122c-5 0-8 3-8 6 0 3 4 6 8 6s8-3 8-6c0-3-3-6-8-6Z" fill="#43312A"/>
+  <path d="M120 134v5" stroke="#43312A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 139q-8 7-15 1" stroke="#43312A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 139q8 7 15 1" stroke="#43312A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- cheeks -->
+  <ellipse cx="96" cy="126" rx="9" ry="5" fill="#F6B27B" opacity="0.75"/>
+  <ellipse cx="144" cy="126" rx="9" ry="5" fill="#F6B27B" opacity="0.75"/>
+
+  <!-- front paws -->
+  <ellipse cx="97" cy="213" rx="16" ry="10" fill="#FDF0DF"/>
+  <ellipse cx="143" cy="213" rx="16" ry="10" fill="#FDF0DF"/>
+</svg>

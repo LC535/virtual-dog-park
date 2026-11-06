@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="corgi-title">
+  <title id="corgi-title">Illustration of a Corgi</title>
+  <circle cx="120" cy="120" r="108" fill="#FFF0DC"/>
+
+  <!-- long low body -->
+  <ellipse cx="120" cy="184" rx="63" ry="39" fill="#E28B45"/>
+  <ellipse cx="120" cy="196" rx="34" ry="26" fill="#FFF8F0"/>
+
+  <!-- big upright ears -->
+  <path d="M84 84 Q62 22 78 24 Q96 26 112 66 Z" fill="#D2762F"/>
+  <path d="M156 84 Q178 22 162 24 Q144 26 128 66 Z" fill="#D2762F"/>
+  <path d="M88 74 Q74 36 82 36 Q94 40 105 66 Z" fill="#F0B183"/>
+  <path d="M152 74 Q166 36 158 36 Q146 40 135 66 Z" fill="#F0B183"/>
+
+  <!-- head -->
+  <ellipse cx="120" cy="108" rx="46" ry="42" fill="#E28B45"/>
+
+  <!-- white blaze down the face -->
+  <path d="M120 66c-7 0-11 6-11 13 0 10 3 22 11 33 8-11 11-23 11-33 0-7-4-13-11-13Z" fill="#FFF8F0"/>
+
+  <!-- muzzle -->
+  <ellipse cx="120" cy="134" rx="30" ry="20" fill="#FFF8F0"/>
+
+  <!-- eyes -->
+  <ellipse cx="100" cy="104" rx="5.5" ry="6.5" fill="#3A2A22"/>
+  <ellipse cx="140" cy="104" rx="5.5" ry="6.5" fill="#3A2A22"/>
+  <circle cx="102" cy="101.5" r="1.8" fill="#FFF"/>
+  <circle cx="142" cy="101.5" r="1.8" fill="#FFF"/>
+
+  <!-- nose and mouth -->
+  <path d="M120 124c-5 0-9 3-9 6 0 3 4 6 9 6s9-3 9-6c0-3-4-6-9-6Z" fill="#3A2A22"/>
+  <path d="M120 136v5" stroke="#3A2A22" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 141q-9 7-16 1" stroke="#3A2A22" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M120 141q9 7 16 1" stroke="#3A2A22" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- cheeks -->
+  <ellipse cx="95" cy="128" rx="9" ry="5" fill="#F5A97E" opacity="0.8"/>
+  <ellipse cx="145" cy="128" rx="9" ry="5" fill="#F5A97E" opacity="0.8"/>
+
+  <!-- short legs -->
+  <ellipse cx="92" cy="215" rx="15" ry="9" fill="#FFF8F0"/>
+  <ellipse cx="148" cy="215" rx="15" ry="9" fill="#FFF8F0"/>
+</svg>

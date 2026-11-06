@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Dog Park</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="kicker">Vibe Coding Lab</p>
+    <h1>Virtual Dog Park</h1>
+    <p class="tagline">Three very different dogs. Read their notes, then decide who comes home with you.</p>
+  </header>
+
+  <main class="layout">
+    <section class="panel" id="encyclopedia">
+      <div class="panel-head">
+        <h2>Dog Encyclopedia</h2>
+        <p>Every breed here has its own size, temperament and daily routine. Pick with your head, not just your heart.</p>
+      </div>
+
+      <div class="breed-grid">
+        <article class="breed-card">
+          <img class="breed-art" src="assets/shiba-inu.svg" alt="Illustration of a Shiba Inu">
+          <h3>Shiba Inu</h3>
+          <p class="breed-tag">Japan &middot; small &amp; fox-like</p>
+          <dl class="facts">
+            <dt>Size</dt>
+            <dd>Small. About 35 cm tall and 8&ndash;11 kg.</dd>
+            <dt>Personality</dt>
+            <dd>Independent and famously cat-like. Loyal to one person, quiet with strangers, always ready to protest.</dd>
+            <dt>Everyday care</dt>
+            <dd>Two brisk walks a day. Brush weekly, daily when shedding. Keep the lead on &mdash; recall is optional in their opinion.</dd>
+          </dl>
+        </article>
+
+        <article class="breed-card">
+          <img class="breed-art" src="assets/corgi.svg" alt="Illustration of a Corgi">
+          <h3>Corgi</h3>
+          <p class="breed-tag">Wales &middot; long body, short legs</p>
+          <dl class="facts">
+            <dt>Size</dt>
+            <dd>Small but sturdy. About 27 cm tall and 12&ndash;14 kg.</dd>
+            <dt>Personality</dt>
+            <dd>Cheerful and slightly bossy. Herds children, bicycles and the vacuum cleaner with equal commitment.</dd>
+            <dt>Everyday care</dt>
+            <dd>Protect the long back: limit stairs and sofa jumps. Measure meals closely, because weight piles on fast. Brush twice a week.</dd>
+          </dl>
+        </article>
+
+        <article class="breed-card">
+          <img class="breed-art" src="assets/border-collie.svg" alt="Illustration of a Border Collie">
+          <h3>Border Collie</h3>
+          <p class="breed-tag">Scotland &middot; the working brain</p>
+          <dl class="facts">
+            <dt>Size</dt>
+            <dd>Medium. About 50 cm tall and 16&ndash;20 kg.</dd>
+            <dt>Personality</dt>
+            <dd>Brilliant and intense. Learns a new trick in minutes, stares at you until you give it a job.</dd>
+            <dt>Everyday care</dt>
+            <dd>An hour of real exercise plus training games every day. Brush two or three times a week. A bored collie redecorates.</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Illustrations are original vector drawings made for this project, not real dog photographs.</p>
+    <p class="footer-credit">Virtual Dog Park &middot; first-year programming lab &middot; <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
