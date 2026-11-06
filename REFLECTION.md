@@ -1,0 +1,3 @@
+# Reflection
+
+Writing the prompts turned out to be the easy part. The hard part was noticing what the assistant got wrong. In round one the page looked finished, but my Shiba and Corgi came out as two nearly identical orange dogs, so I redrew the ears and body shapes myself until the breeds read differently at thumbnail size. In round three the growth bar changed while the saved dog did not, and the cause was one storage key written in one place and read in another. Testing the boring cases — an empty name, a name containing `<b>`, thirty clicks on Feed — taught me more than reading the code. I trust the browser now, not the assistant's summary.
