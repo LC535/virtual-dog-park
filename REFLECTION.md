@@ -1,5 +1,3 @@
 # Reflection
 
-I expected this lab to be quick. The AI gave me a whole page in one prompt and it looked fine, so I almost committed it. Then I lined the three dogs up: the Shiba and the Corgi were basically the same orange dog with different ears, and I had to redraw both myself.
-
-The storage gave me more trouble. I wrote the key in one place and read a different one somewhere else, so the day counter moved but the saved dog never changed. I found it by refreshing over and over. Typing `<b>Buddy</b>` into the name box also showed me why textContent matters.
+I thought this lab would be simple, but the first version from the AI still needed a lot of checking. The Shiba Inu and Corgi drawings looked too similar, so I redrew them. I also had trouble with localStorage: the day counter changed, but the saved dog did not update after I refreshed the page. I found that I had used different storage keys. Testing a name like `<b>Buddy</b>` helped me understand why textContent should be used for user input. This lab showed me that getting code from AI is only the beginning. I still need to read it, test it and fix problems myself.
