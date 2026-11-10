@@ -88,18 +88,18 @@ virtual-dog-park/
 │   ├── corgi.svg
 │   └── border-collie.svg
 ├── README.md
+├── REFLECTION.md   short write-up about the work
 └── .gitignore
 ```
 
 ## Git history
 
-The project was built in round-based commits, so each working version can be found again:
+The site was built in three rounds. Each round was committed only after it worked in the browser, so every working version can be found again:
 
-```
-chore: initialize virtual dog park
-feat: add dog encyclopedia
-feat: add virtual dog adoption and care
-feat: add dog growth and saved progress
-style: redraw shiba and corgi illustrations so the breeds read differently
-docs: finish instructions and final review
-```
+| Round | What it added | Commit message |
+| --- | --- | --- |
+| 1 | Encyclopedia and the three illustrations | `feat: add dog encyclopedia` |
+| 2 | Adoption, Feed and Play | `feat: add virtual dog adoption and care` |
+| 3 | Growth stages, saved progress and Start Over | `feat: add dog growth and saved progress` |
+
+`chore: initialize virtual dog park` comes before these three. The `style:` and `docs:` commits after them only change drawings and written material, not behaviour. Run `git log --oneline` for the full list rather than trusting this page to stay in step with it.
